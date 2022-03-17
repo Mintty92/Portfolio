@@ -231,7 +231,7 @@ header {
 }
 
 .nav-open .hamburger:before {
-  transform: rotate(90deg) translateX(-6px);
+  transform: rotate(90deg) translateX(-11px);
 }
 
 .nav-open-partial .nav-toggle {
@@ -247,7 +247,7 @@ header {
 }
 
 .nav-open-partial .hamburger:before {
-  transform: rotate(90deg) translateX(-6px);
+  transform: rotate(90deg) translateX(-11px);
 }
 
 .hamburger {
@@ -264,7 +264,7 @@ header {
 .hamburger:after {
   background: var(--clr-accent);
   width: 2em;
-  height: 3px;
+  height: 6px;
   border-radius: 1em;
   transition: transform 600ms ease-in-out;
 }
@@ -278,11 +278,11 @@ header {
 }
 
 .hamburger:before {
-  top: 6px;
+  top: 11px;
 }
 
 .hamburger:after {
-  bottom: 6px;
+  bottom: 11px;
 }
 
 /* Intro Section */
